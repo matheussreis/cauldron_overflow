@@ -27,6 +27,8 @@ class QuestionController extends AbstractController
             'Maybe... try saying the spell backwards?',
         ];
 
+        dump($slug, $this);
+
         //The render() method returns a response object with HTML inside.
         //The first parameter is the filename of the template and the second
         //is an array with variables that we want to pass into our template.
