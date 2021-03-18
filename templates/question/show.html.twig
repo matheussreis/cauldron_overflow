@@ -56,11 +56,3 @@
     </ul>
 </div>
 {% endblock %}
-
-{% block javascripts %}
-
-    {# This function inherits the javascript content from the parent file.#}
-    {{parent()}}
-
-    <script src="{{ asset('js/question_show.js') }}"></script>
-{% endblock %}
